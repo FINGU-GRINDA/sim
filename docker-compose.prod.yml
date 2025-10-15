@@ -88,3 +88,5 @@ services:
 
 volumes:
   postgres_data:
+    external: true
+    name: acggcw8go0o0gokocs4ko4ss_postgres-data  # ← Coolify가 보여준 볼륨 이름으로 고정
